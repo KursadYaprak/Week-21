@@ -1,0 +1,35 @@
+.classleft {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.classleft h2 {
+    margin-top: 5%;
+}
+
+.classleft p {
+    position: relative;
+    display: flex;
+    text-align: left;
+    max-width: 70%;
+}
+
+.classright img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    margin: 15% 10% 0 10%;
+}
+
+.schedule {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;    
+}

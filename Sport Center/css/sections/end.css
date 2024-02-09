@@ -1,0 +1,16 @@
+.end {
+    background-color: #355592;
+    color: white;
+}
+
+.end-top {
+    margin: 0 20%;
+    padding-top: 10px;
+}
+
+.end-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}

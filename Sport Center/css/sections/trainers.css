@@ -1,0 +1,308 @@
+.trainers {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(187, 201, 233, 0.4);
+    padding: 3% 0;
+}
+
+.t3 {
+    border: 2px solid rgb(238, 166, 99);
+    border-radius: 5px;
+}
+
+.jane1 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 50px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .jane1 {
+    height: 170px;
+}
+
+.jane2 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 370px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .jane2 {
+    width: 170px;
+}
+
+.jane3 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 78.9%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 80px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.jane4 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 78.9%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popjane {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 18%;
+    top: 67.9%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popjane p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.trainer:hover .jane3{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .jane4{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .popjane{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.t2 {
+    border: 2px solid rgb(238, 166, 99);
+    border-radius: 5px;
+}
+
+.ersin1 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 50px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .ersin1 {
+    height: 170px;
+}
+
+.ersin2 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 370px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .ersin2 {
+    width: 170px;
+}
+
+.ersin3 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 80px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ersin4 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popersin {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 47.2%;
+    top: 67.9%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popersin p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.trainer:hover .ersin3{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .ersin4{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .popersin{
+    visibility: visible;
+    opacity: 1;
+}
+
+.t1 {
+    border: 2px solid rgb(238, 166, 99);
+    border-radius: 5px;
+}
+
+.elena1 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 50px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .elena1 {
+    height: 170px;
+}
+
+.elena2 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 370px;
+    background-color: rgb(2, 9, 112);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.trainer:hover .elena2 {
+    width: 170px;
+}
+
+.elena3 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 80px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.elena4 {
+    position: absolute;
+    content: "";
+    top: 73%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(22, 30, 155);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popelena {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 18.2%;
+    top: 67.9%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popelena p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.trainer:hover .elena3{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .elena4{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trainer:hover .popelena{
+    visibility: visible;
+    opacity: 1;
+}

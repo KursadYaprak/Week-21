@@ -1,0 +1,38 @@
+.cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(158, 199, 223, 0.3);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 150px;   
+    border-radius: 10px;
+}
+
+.stats p {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.numblue {
+    color: rgb(39, 39, 182);
+    padding-top: 22px;
+}
+
+.statblack {
+    color: black;
+}
+

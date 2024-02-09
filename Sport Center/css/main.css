@@ -1,0 +1,16 @@
+@import './common.css';
+@import './vendor.css';
+@import './common.css';
+@import './layouts/header.css';
+@import './layouts/hero.css';
+@import './sections/stats.css';
+@import './sections/grad.css';
+@import './sections/repeat.css';
+@import './sections/triangle.css';
+@import './sections/classes.css';
+@import './sections/bmi.css';
+@import './sections/trainers.css';
+@import './sections/card.css';
+@import './sections/client.css';
+@import './sections/contact.css';
+@import './sections/end.css';
